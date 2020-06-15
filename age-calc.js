@@ -1,5 +1,6 @@
 var agePrompt = prompt("What is your age");
-console.log("You have been alive for " + agePrompt * 365 + " days!");
+var days = age * 365;
+alert(`At your age: ${age} you have been alive for ${days} days!!`)
 
 
 
